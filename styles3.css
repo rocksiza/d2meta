@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #800080; /* Purple background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: #979797;
+    padding: 20px;
+    border-radius: 15px; /* Rounded edges */
+}
+
+.weapon-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weapon-image img {
+    max-width: 80%;
+    max-height: 40%;
+}
+
+.perks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.perks img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.description {
+    padding: 10px;
+    background-color: #c0c0c0; /* Light grey color */
+    border-radius: 10px; /* Rounded edges */
+}

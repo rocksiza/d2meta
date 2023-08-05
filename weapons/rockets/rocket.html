@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Grid</title>
+    <link rel="stylesheet" href="..\..\archetype.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="icon-row"><img src="..\..\icons\heavy.png" alt="Icon"></div>
+        <a href="rocket_heavy_arc.html" class="grid-item3"><img src="..\..\icons\arc.png" alt="Logo"></a>
+        <a href="rocket_heavy_solar.html" class="grid-item2"><img src="..\..\icons\solar.png" alt="Logo"></a>
+        <a href="rocket_heavy_void.html" class="grid-item"><img src="..\..\icons\void.png" alt="Logo"></a>
+        <a href="rocket_heavy_stasis.html" class="grid-item1"><img src="..\..\icons\stasis.png" alt="Logo"></a>
+        <a href="rocket_heavy_strand.html" class="grid-item"><img src="..\..\icons\strand.png" alt="Logo"></a>
+        <!-- Repeat for other rows, with different icons if desired -->
+    </div>
+    <script src="three.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script>
+    VANTA.FOG({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0x4a00ff,
+      midtoneColor: 0xd200ff,
+      baseColor: 0xb28cfa,
+      blurFactor: 0.66,
+      speed: 0.50,
+      zoom: 1.10
+    })
+    </script>
+</body>
+</html>

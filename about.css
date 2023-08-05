@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif; /* Updated font family */
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: flex-start; /* Justify content to the start */
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+    padding: 2%; /* Padding around the edges */
+}
+
+.about-section {
+    position: absolute;
+    top: 2%;
+    left: 30%; /* Adjust to position the About section */
+    width: 40%; /* Adjust to size the About section */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+.about-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    margin-bottom: 10px;
+}
+
+.about-section a {
+    color: #fffb00; /* Yellow color */
+    text-decoration: none;
+}
